@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Kantumruy Pro;
+  background-color: #f5eded;
+}
+
+/* header navbar */
+
+header {
+  background-color: #f5eded;
+  height: 60px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-row .nav-brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-row ul {
+  display: flex;
+}
+
+ul a {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-row .nav-search {
+  display: flex;
+}
+
+.nav-search .search-btn input {
+  outline: none;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #000;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.nav-search .icon {
+  background-color: #c0bcbc;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  align-content: center;
+  padding: 0 7px;
+  box-shadow: 0 0 5px 0 #000;
+}
+
+/* main */
+/* section banner */
+.hero-banner .container-fluid {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/30/12/13/cambodia-1557009_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-banner .container-fluid .hero-content {
+  width: 900px;
+}
+
+.hero-content h1,
+.hero-content p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+}
+
+.hero-content .btn {
+  width: 140px;
+  margin: 20px auto;
+}
+
+.btn button {
+  border-radius: 20px;
+  padding: 12px 35px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* section service */
+
+.section-1 .container {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.section-1 h2,
+.section-1 p {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 -20px;
+}
+
+.row > * {
+  padding: 0 20px;
+}
+
+.col-3 {
+  width: 25%;
+  margin-top: 15px;
+}
+
+.col-3 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-3 .content-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #c0bcbc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.col-3 .content-body h3,
+.col-3 .content-body p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* section 2 */
+
+.section-2,
+.section-4 {
+  background-color: #fff;
+}
+
+.card {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.rate i {
+  color: orange;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.topic {
+  margin-top: 40px;
+}
+
+.topic-rate {
+  display: flex;
+  margin: 20px 0;
+}
+
+.topic-rate .tourists {
+  margin: 0 25px;
+}
+
+.topic-rate span {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.topic .btn button {
+  color: #fff;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* section 3 */
+
+.section-3 .container {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.section-3 h2,
+.section-3 p {
+  text-align: center;
+}
+
+.section-3 .card {
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 5px rgb(185, 180, 180);
+}
+
+.section-3 .card-body {
+  padding: 10px;
+}
+
+.section-3 .card-body .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price i {
+  font-size: 1.5rem;
+}
+
+/* Section-4 */
+
+.section-4 .content {
+  padding: 40px 80px;
+}
+
+.content h3,
+.content p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+}
+
+.content .btn {
+  width: 140px;
+  margin: 20px auto;
+}
+
+.content .btn button {
+  color: #fff;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* footer */
+
+.section-5 .col-3 {
+  margin: 40px 0;
+}
+
+.section-5 .col-3 h1,
+.section-5 .col-3 li {
+  margin-bottom: 10px;
+}
+
+.section-5 .col-3 a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.section-5 .copy-right {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background-color: #6e6969;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5 .copy-right i {
+  padding: 0 10px;
+}
