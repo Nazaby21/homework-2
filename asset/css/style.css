@@ -34,17 +34,23 @@ header {
   font-weight: 500;
 }
 
+.nav-row .nav-brand a {
+  text-decoration: none;
+  color: #000;
+}
+
 .nav-row ul {
   display: flex;
 }
 
-ul a {
+.navbar ul a {
   display: block;
   text-decoration: none;
   font-size: 1rem;
   padding: 20px;
   color: #000;
   font-weight: 500;
+  transition: 0.3s;
 }
 
 .nav-row .nav-search {
@@ -109,7 +115,7 @@ ul a {
   border-radius: 20px;
   padding: 12px 35px;
   border: none;
-  background-color: orange;
+  background-color: rgb(238, 176, 4);
   color: #fff;
   cursor: pointer;
 }
@@ -224,7 +230,7 @@ img {
 
 .topic .btn button {
   color: #fff;
-  background-color: orange;
+  background-color: rgb(238, 176, 4);
   border: none;
   cursor: pointer;
 }
@@ -284,7 +290,7 @@ img {
 
 .content .btn button {
   color: #fff;
-  background-color: orange;
+  background-color: rgb(238, 176, 4);
   border: none;
   cursor: pointer;
 }
@@ -320,4 +326,37 @@ img {
 
 .section-5 .copy-right i {
   padding: 0 10px;
+}
+
+/* HOVER */
+
+.navbar ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  transition: 0.3s;
+}
+
+.btn button:hover {
+  background-color: orange;
+  transition: 0.3s;
+}
+
+footer .col-3 a:hover{
+  color: orange;
+}
+
+footer .col-3 .st:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.section-3 .card:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 5px rgb(133, 130, 130);
+}
+
+.section-3 .card:hover i {
+  color: orange;
+  transition: 0.3s;
 }
